@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2XNt5lEKml0atxQqcePE/pCYQde0c7B1icjRZgU5CDnHlYIEUsj9ryyNeQfV86nnT3D6rfqGTZUd+m6FAW/Bpg==",
+  "dgSpecHash": "880w0frB25wu7aCB2WibNLqmDUJRS8WPJwUju//hCxAi4+8x/1tYhxgnjQ5kFUwtkqhGbg6kbhPYt/4VmGzqYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ilyas\\RiderProjects\\CleanArchitecture\\CleanA.Infrastructure\\CleanA.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Infrastructure\\CleanA.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ilyas\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Ilyas\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0-rc.1.23421.29\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0-rc.1.23421.29.nupkg.sha512",

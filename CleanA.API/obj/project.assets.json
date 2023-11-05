@@ -3892,11 +3892,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ilyas\\RiderProjects\\CleanArchitecture\\CleanA.API\\CleanA.API.csproj",
+      "projectUniqueName": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.API\\CleanA.API.csproj",
       "projectName": "CleanA.API",
-      "projectPath": "C:\\Users\\Ilyas\\RiderProjects\\CleanArchitecture\\CleanA.API\\CleanA.API.csproj",
+      "projectPath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.API\\CleanA.API.csproj",
       "packagesPath": "C:\\Users\\Ilyas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ilyas\\RiderProjects\\CleanArchitecture\\CleanA.API\\obj\\",
+      "outputPath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ilyas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3911,8 +3911,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Ilyas\\RiderProjects\\CleanArchitecture\\CelanA.Application\\CelanA.Application.csproj": {
-              "projectPath": "C:\\Users\\Ilyas\\RiderProjects\\CleanArchitecture\\CelanA.Application\\CelanA.Application.csproj"
+            "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CelanA.Application\\CelanA.Application.csproj": {
+              "projectPath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CelanA.Application\\CelanA.Application.csproj"
             }
           }
         }

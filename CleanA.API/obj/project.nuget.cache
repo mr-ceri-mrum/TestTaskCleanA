@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CVX8qjPkv2g/7InZvDDlgRdy+xrblfsD9qSRZuOhFGVF2myZb1gOGN8Dt3qURliDB7gP7TF2ivNQp5BI5S65og==",
+  "dgSpecHash": "QTkINPT09tZVC2BNwMUnN8tpS8g2G0MUc5BxRafnd9IfGlfyEhQh9tS/+ud1vTOsAFLDStYsSOZO46GTaXcnfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ilyas\\RiderProjects\\CleanArchitecture\\CleanA.API\\CleanA.API.csproj",
+  "projectFilePath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.API\\CleanA.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ilyas\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Ilyas\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

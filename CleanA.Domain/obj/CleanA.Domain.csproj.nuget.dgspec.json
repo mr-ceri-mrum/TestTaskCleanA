@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ilyas\\RiderProjects\\CleanArchitecture\\CleanA.Domain\\CleanA.Domain.csproj": {}
+    "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Domain\\CleanA.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ilyas\\RiderProjects\\CleanArchitecture\\CleanA.Domain\\CleanA.Domain.csproj": {
+    "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Domain\\CleanA.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ilyas\\RiderProjects\\CleanArchitecture\\CleanA.Domain\\CleanA.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Domain\\CleanA.Domain.csproj",
         "projectName": "CleanA.Domain",
-        "projectPath": "C:\\Users\\Ilyas\\RiderProjects\\CleanArchitecture\\CleanA.Domain\\CleanA.Domain.csproj",
+        "projectPath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Domain\\CleanA.Domain.csproj",
         "packagesPath": "C:\\Users\\Ilyas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ilyas\\RiderProjects\\CleanArchitecture\\CleanA.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ilyas\\AppData\\Roaming\\NuGet\\NuGet.Config"

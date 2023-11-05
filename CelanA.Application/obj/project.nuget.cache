@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "guhD3TCtqNae4B5fxLEinpfSbONlBs1pz5TY35uFw6T1ZEJnYgZIFBSFRLiSTpRmKRYp8Z7xtqlOpTJAeYrVVg==",
+  "dgSpecHash": "EDz+SM2ej61/MwfB21vOnW7qq5m5sxKMAI81ZOqDKgvavmwLNH8erbmoG9apfPwPxtFpdWPe9tya6DI1meAxcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ilyas\\RiderProjects\\CleanArchitecture\\CelanA.Application\\CelanA.Application.csproj",
+  "projectFilePath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CelanA.Application\\CelanA.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ilyas\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Ilyas\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

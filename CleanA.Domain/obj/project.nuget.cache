@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/9yoJLW8lpJEvhR8DbgkUYHVqL0zEPJpOu8slyaCD9BPWtQnzePpB3M/ncp1j8OH4/OoGc13TqLAdJUFUOKfYQ==",
+  "dgSpecHash": "Zm5e5fym+Xjkl1aMqp0wYArgtjJZ+i3OU5T7o+fRf3DjoKbB/redv9/7rZu21d2aBY08+/KAvR3zldVXHyVipQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ilyas\\RiderProjects\\CleanArchitecture\\CleanA.Domain\\CleanA.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Domain\\CleanA.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ilyas\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0-rc.1.23421.29\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0-rc.1.23421.29.nupkg.sha512",
     "C:\\Users\\Ilyas\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

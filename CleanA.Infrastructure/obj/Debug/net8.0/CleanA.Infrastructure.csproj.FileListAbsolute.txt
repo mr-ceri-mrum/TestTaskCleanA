@@ -1,0 +1,17 @@
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Infrastructure\bin\Debug\net8.0\CleanA.Infrastructure.deps.json
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Infrastructure\bin\Debug\net8.0\CleanA.Infrastructure.runtimeconfig.json
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Infrastructure\bin\Debug\net8.0\CleanA.Infrastructure.dll
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Infrastructure\bin\Debug\net8.0\CleanA.Infrastructure.pdb
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Infrastructure\bin\Debug\net8.0\CleanA.Domain.dll
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Infrastructure\bin\Debug\net8.0\CleanA.Domain.pdb
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Infrastructure\obj\Debug\net8.0\CleanA.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Infrastructure\obj\Debug\net8.0\CleanA.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Infrastructure\obj\Debug\net8.0\CleanA.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Infrastructure\obj\Debug\net8.0\CleanA.Infrastructure.AssemblyInfo.cs
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Infrastructure\obj\Debug\net8.0\CleanA.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Infrastructure\obj\Debug\net8.0\CleanA.Infrastructure.csproj.CopyComplete
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Infrastructure\obj\Debug\net8.0\CleanA.Infrastructure.dll
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Infrastructure\obj\Debug\net8.0\refint\CleanA.Infrastructure.dll
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Infrastructure\obj\Debug\net8.0\CleanA.Infrastructure.pdb
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Infrastructure\obj\Debug\net8.0\CleanA.Infrastructure.genruntimeconfig.cache
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Infrastructure\obj\Debug\net8.0\ref\CleanA.Infrastructure.dll

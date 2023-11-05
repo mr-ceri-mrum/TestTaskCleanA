@@ -1,0 +1,12 @@
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Domain\bin\Debug\net8.0\CleanA.Domain.deps.json
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Domain\bin\Debug\net8.0\CleanA.Domain.dll
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Domain\bin\Debug\net8.0\CleanA.Domain.pdb
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Domain\obj\Debug\net8.0\CleanA.Domain.csproj.AssemblyReference.cache
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Domain\obj\Debug\net8.0\CleanA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Domain\obj\Debug\net8.0\CleanA.Domain.AssemblyInfoInputs.cache
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Domain\obj\Debug\net8.0\CleanA.Domain.AssemblyInfo.cs
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Domain\obj\Debug\net8.0\CleanA.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Domain\obj\Debug\net8.0\CleanA.Domain.dll
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Domain\obj\Debug\net8.0\refint\CleanA.Domain.dll
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Domain\obj\Debug\net8.0\CleanA.Domain.pdb
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CleanA.Domain\obj\Debug\net8.0\ref\CleanA.Domain.dll

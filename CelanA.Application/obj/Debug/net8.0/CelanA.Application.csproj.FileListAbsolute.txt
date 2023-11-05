@@ -1,0 +1,17 @@
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CelanA.Application\bin\Debug\net8.0\CelanA.Application.deps.json
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CelanA.Application\bin\Debug\net8.0\CelanA.Application.dll
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CelanA.Application\bin\Debug\net8.0\CelanA.Application.pdb
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CelanA.Application\bin\Debug\net8.0\CleanA.Domain.dll
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CelanA.Application\bin\Debug\net8.0\CleanA.Domain.pdb
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CelanA.Application\obj\Debug\net8.0\CelanA.Application.csproj.AssemblyReference.cache
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CelanA.Application\obj\Debug\net8.0\CelanA.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CelanA.Application\obj\Debug\net8.0\CelanA.Application.AssemblyInfoInputs.cache
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CelanA.Application\obj\Debug\net8.0\CelanA.Application.AssemblyInfo.cs
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CelanA.Application\obj\Debug\net8.0\CelanA.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CelanA.Application\obj\Debug\net8.0\CelanA.Application.csproj.CopyComplete
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CelanA.Application\obj\Debug\net8.0\CelanA.Application.dll
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CelanA.Application\obj\Debug\net8.0\refint\CelanA.Application.dll
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CelanA.Application\obj\Debug\net8.0\CelanA.Application.pdb
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CelanA.Application\obj\Debug\net8.0\ref\CelanA.Application.dll
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CelanA.Application\bin\Debug\net8.0\CleanA.Infrastructure.dll
+C:\Users\Ilyas\RiderProjects\CleanArchitecture\CelanA.Application\bin\Debug\net8.0\CleanA.Infrastructure.pdb

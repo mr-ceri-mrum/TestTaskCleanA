@@ -6,13 +6,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CleanA.Infrastructure.DbContexts;
 
-public class DataContext : IdentityDbContext
+public class DataContext : IdentityDbContext<ApplicationUser>
 {
     public DataContext(DbContextOptions<DataContext> options) : base(options)
     {
         AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
     }
-    
+    public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+
     public DbSet<WalletUser> WalletUsers { get; set; }
     public DbSet<Color> Colors { get; set; }
     public DbSet<Car> Cars { get; set; }

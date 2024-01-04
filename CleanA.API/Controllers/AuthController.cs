@@ -1,5 +1,6 @@
 using CelanA.Application.Interface;
 using CleanA.Domain.DTOs.User;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CleanA.API.Controllers;
@@ -31,5 +32,22 @@ public class AuthController : ControllerBase
         
         return Ok(loginResponse);
 
+    }
+    
+    [Authorize]
+    [HttpPost("AddRole")]
+    public async Task<IActionResult> AddRole(string email, string roleName)
+    {
+        var result = await _authService.AddedRole(email, roleName);
+        return Ok(result);
+    }
+
+    [Authorize]
+    [HttpGet("GetUserInfo")]
+    public async Task<IActionResult> GetUserInfo()
+    {
+        var userId = await _authService.GetUser();
+        
+        return Ok(userId);
     }
 }

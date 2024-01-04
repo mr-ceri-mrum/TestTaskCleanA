@@ -9,7 +9,7 @@ namespace CleanA.API.Controllers;
 public class testController : ControllerBase
 {
     [HttpGet]
-    [Authorize]
+    [Authorize(Roles = "USER, TEST")]
     public async Task<IActionResult> AddColor()
     {
         return Ok("aaaa");

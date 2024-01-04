@@ -1,8 +1,13 @@
+using System.Security.Claims;
+using AutoMapper;
 using CelanA.Application.Interface;
+using CleanA.Domain.ActionResponse;
 using CleanA.Domain.DTOs.User;
 using CleanA.Domain.Entitys.User;
 using CleanA.Infrastructure.DbContexts;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace CelanA.Application.Services;
 
@@ -12,15 +17,19 @@ public class AuthService : IAuthService
     private readonly UserManager<ApplicationUser> _userManager;
     private readonly RoleManager<IdentityRole> _roleManager;
     private readonly IJwtTokenGenerator _jwtTokenGenerator;
+    private readonly IHttpContextAccessor _httpContextAccessor;
+    private readonly IMapper _mapper;
     
     
     public AuthService(DataContext db, IJwtTokenGenerator jwtTokenGenerator,
-        UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
+        UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, IHttpContextAccessor httpContextAccessor, IMapper mapper)
     {
         _db = db;
         _jwtTokenGenerator = jwtTokenGenerator;
         _userManager = userManager;
         _roleManager = roleManager;
+        _httpContextAccessor = httpContextAccessor;
+        _mapper = mapper;
     }
     
     public async Task<string?> Register(RegistrationRequestDto registrationRequestDto)
@@ -48,7 +57,7 @@ public class AuthService : IAuthService
                     PhoneNumber = userToReturn.PhoneNumber
                 };
                 
-                return "Succesu";
+                return "Good is registered";
         
             }
             else
@@ -92,8 +101,61 @@ public class AuthService : IAuthService
         return loginResponseDto;
     }
 
-    public async Task<bool> AssignRole(string email, string roleName)
+    public async Task<ActionMethodResult> AddedRole(string email, string roleName)
     {
-        throw new NotImplementedException();
+        var user = _db.ApplicationUsers.FirstOrDefault(u => u.Email.ToLower() == email.ToLower());
+        if (user == null) 
+            return ActionMethodResult.Error("", "not Found", StatusCodes.Status404NotFound);
+        
+        if (!_roleManager.RoleExistsAsync(roleName).GetAwaiter().GetResult())
+        {
+            _roleManager.CreateAsync(new IdentityRole(roleName)).GetAwaiter().GetResult();
+        }
+            
+        await _userManager.AddToRoleAsync(user, roleName.ToUpper());
+        return ActionMethodResult.Success($@"added for {user.Email} {roleName}");
+
     }
+
+    public async Task<ActionMethodResult> GetUser()
+    {
+        try
+        {
+            var userId = GetUserId();
+            if (userId == Guid.Empty)
+            {
+                return ActionMethodResult.Error("Invalid user ID");
+            }
+            
+            var user = await _db.ApplicationUsers.FirstOrDefaultAsync(x => x.Id == userId.ToString());
+            
+            if (user == null)
+            {
+                return ActionMethodResult.Error("Not Found");
+            }
+            
+            var userDto = _mapper.Map<ApplicationUser, UserDto>(user);
+            userDto.UserRole = await _userManager.GetRolesAsync(user) as List<string>;
+            return ActionMethodResult.Success(userDto);
+        }
+        catch (Exception ex)
+        {
+            // Логирование исключения
+            return ActionMethodResult.Error("An error occurred: " + ex.Message);
+        }
+    }
+
+    private Guid GetUserId()
+    {
+        if (!(_httpContextAccessor.HttpContext?.User?.Identity?.IsAuthenticated ?? false)) 
+            return Guid.Empty;
+        
+        var userIdClaim = _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier);
+        if (userIdClaim != null && Guid.TryParse(userIdClaim.Value, out var userId))
+            return userId;
+        
+        return Guid.Empty;
+    }
+
+    
 }

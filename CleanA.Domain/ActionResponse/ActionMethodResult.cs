@@ -1,8 +1,9 @@
 using CleanA.Domain.Сonstants;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CleanA.Domain.ActionResponse;
 
-public class ActionMethodResult
+public class ActionMethodResult : ActionResult
 {
      /// <summary>
         /// Флаг результата

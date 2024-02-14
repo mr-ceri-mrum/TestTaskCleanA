@@ -1,0 +1,6 @@
+@EncodingService_HostAddress = http://localhost:5126
+
+GET {{EncodingService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -4,8 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace CleanA.Domain.ActionResponse;
 
 public class ActionMethodResult : ActionResult
-{
-     /// <summary>
+{ 
+        /// <summary>
         /// Флаг результата
         /// </summary>
         public bool IsSuccessed { get; set; }
@@ -89,7 +89,7 @@ public class ActionMethodResult : ActionResult
                 Exception = exception
             };
         }
-
+        
         public static ActionMethodResult Error(string title, string text, object exception = null)
         {
             return new ActionMethodResult(ActionMethodConstants.Results.Error, title, text) { Exception = exception };

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CelanA.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cfb74ddfc44d40523bcbe725925de0c8f6587d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CelanA.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CelanA.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

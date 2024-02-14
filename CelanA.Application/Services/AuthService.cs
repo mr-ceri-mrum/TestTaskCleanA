@@ -5,6 +5,7 @@ using CleanA.Domain.ActionResponse;
 using CleanA.Domain.DTOs.User;
 using CleanA.Domain.Entitys.User;
 using CleanA.Infrastructure.DbContexts;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -100,16 +101,16 @@ public class AuthService : IAuthService
 
         return loginResponseDto;
     }
-
+    [Authorize]
     public async Task<ActionMethodResult> AddedRole(string email, string roleName)
     {
         var user = _db.ApplicationUsers.FirstOrDefault(u => u.Email.ToLower() == email.ToLower());
         if (user == null) 
-            return ActionMethodResult.Error("", "not Found", StatusCodes.Status404NotFound);
+            return ActionMethodResult.Error("not Found", "not Found", StatusCodes.Status404NotFound);
         
         if (!_roleManager.RoleExistsAsync(roleName).GetAwaiter().GetResult())
         {
-            _roleManager.CreateAsync(new IdentityRole(roleName)).GetAwaiter().GetResult();
+            _roleManager.CreateAsync(new IdentityRole(roleName.ToUpper())).GetAwaiter().GetResult();
         }
             
         await _userManager.AddToRoleAsync(user, roleName.ToUpper());

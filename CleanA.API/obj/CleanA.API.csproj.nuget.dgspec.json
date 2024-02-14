@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.API\\CleanA.API.csproj": {}
+    "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CleanA.API\\CleanA.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CelanA.Application\\CelanA.Application.csproj": {
+    "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CelanA.Application\\CelanA.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CelanA.Application\\CelanA.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CelanA.Application\\CelanA.Application.csproj",
         "projectName": "CelanA.Application",
-        "projectPath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CelanA.Application\\CelanA.Application.csproj",
+        "projectPath": "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CelanA.Application\\CelanA.Application.csproj",
         "packagesPath": "C:\\Users\\Ilyas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CelanA.Application\\obj\\",
+        "outputPath": "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CelanA.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ilyas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Domain\\CleanA.Domain.csproj": {
-                "projectPath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Domain\\CleanA.Domain.csproj"
+              "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CleanA.Domain\\CleanA.Domain.csproj": {
+                "projectPath": "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CleanA.Domain\\CleanA.Domain.csproj"
               },
-              "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Infrastructure\\CleanA.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Infrastructure\\CleanA.Infrastructure.csproj"
+              "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CleanA.Infrastructure\\CleanA.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CleanA.Infrastructure\\CleanA.Infrastructure.csproj"
               }
             }
           }
@@ -82,18 +82,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.API\\CleanA.API.csproj": {
+    "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CleanA.API\\CleanA.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.API\\CleanA.API.csproj",
+        "projectUniqueName": "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CleanA.API\\CleanA.API.csproj",
         "projectName": "CleanA.API",
-        "projectPath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.API\\CleanA.API.csproj",
+        "projectPath": "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CleanA.API\\CleanA.API.csproj",
         "packagesPath": "C:\\Users\\Ilyas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.API\\obj\\",
+        "outputPath": "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CleanA.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ilyas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -108,8 +108,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CelanA.Application\\CelanA.Application.csproj": {
-                "projectPath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CelanA.Application\\CelanA.Application.csproj"
+              "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CelanA.Application\\CelanA.Application.csproj": {
+                "projectPath": "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CelanA.Application\\CelanA.Application.csproj"
               }
             }
           }
@@ -162,18 +162,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Domain\\CleanA.Domain.csproj": {
+    "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CleanA.Domain\\CleanA.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Domain\\CleanA.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CleanA.Domain\\CleanA.Domain.csproj",
         "projectName": "CleanA.Domain",
-        "projectPath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Domain\\CleanA.Domain.csproj",
+        "projectPath": "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CleanA.Domain\\CleanA.Domain.csproj",
         "packagesPath": "C:\\Users\\Ilyas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CleanA.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ilyas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -204,6 +204,10 @@
               "target": "Package",
               "version": "[8.0.0-rc.1.23421.29, )"
             },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0-rc.2.23480.1, )"
@@ -225,18 +229,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Infrastructure\\CleanA.Infrastructure.csproj": {
+    "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CleanA.Infrastructure\\CleanA.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Infrastructure\\CleanA.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CleanA.Infrastructure\\CleanA.Infrastructure.csproj",
         "projectName": "CleanA.Infrastructure",
-        "projectPath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Infrastructure\\CleanA.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CleanA.Infrastructure\\CleanA.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Ilyas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CleanA.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ilyas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -251,8 +255,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Domain\\CleanA.Domain.csproj": {
-                "projectPath": "C:\\Users\\Ilyas\\Desktop\\TestTaskCleanA\\TestTaskCleanA\\CleanA.Domain\\CleanA.Domain.csproj"
+              "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CleanA.Domain\\CleanA.Domain.csproj": {
+                "projectPath": "C:\\Users\\Ilyas\\Desktop\\PlatForma\\TestTaskCleanA\\CleanA.Domain\\CleanA.Domain.csproj"
               }
             }
           }
@@ -308,7 +312,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
